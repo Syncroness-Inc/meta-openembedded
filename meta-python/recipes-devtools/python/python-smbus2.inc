@@ -2,6 +2,7 @@ SUMMARY = "Pure python implementation of the python-smbus package"
 HOMEPAGE = "https://github.com/kplindegaard/smbus2"
 SECTION = "devel/python"
 LICENSE = "MIT"
+LIC_FILE_CHKSUM = "https://raw.githubusercontent.com/kplindegaard/smbus2/master/LICENSE;md5=2a3eca2de44816126b3c6f33811a9fba"
 DEPENDS = "${PYTHON_PN}"
 
 PYPI_PACKAGE = "smbus2"
