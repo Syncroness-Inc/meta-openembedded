@@ -1,2 +1,2 @@
-require python-.inc
+require python-crc8.inc
 inherit setuptools
