@@ -1,2 +1,2 @@
 inherit setuptools3
-require python-.inc
+require python-cobs.inc
