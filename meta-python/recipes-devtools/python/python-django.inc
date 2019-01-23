@@ -21,4 +21,5 @@ RDEPENDS_${PN} += "\
     ${PYTHON_PN}-pkgutil \
     ${PYTHON_PN}-subprocess \
     ${PYTHON_PN}-threading \
+    ${PYTHON_PN}-pytz \
     "
