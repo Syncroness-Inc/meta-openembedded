@@ -3,7 +3,7 @@ SECTION = "devel/python"
 LICENSE = "PSF"
 LIC_FILES_CHKSUM = "file://LICENSE/LICENSE;md5=afec61498aa5f0c45936687da9a53d74"
 
-DEPENDS += ${PYTHON_PN}-numpy freetype libpng ${PYTHON_PN}-dateutil ${PYTHON_PN}-pytz"
+DEPENDS += "${PYTHON_PN}-numpy freetype libpng ${PYTHON_PN}-dateutil ${PYTHON_PN}-pytz"
 RDEPENDS_${PN} = "${PYTHON_PN}-core ${PYTHON_PN}-distutils ${PYTHON_PN}-numpy freetype libpng ${PYTHON_PN}-dateutil ${PYTHON_PN}-pytz"
 
 SRC_URI = "https://github.com/matplotlib/matplotlib/archive/v${PV}.tar.gz \
