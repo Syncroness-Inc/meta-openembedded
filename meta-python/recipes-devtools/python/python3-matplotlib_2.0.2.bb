@@ -1,2 +1,2 @@
 require python-matplotlib.inc
-inherit setuptools pkgconfig
+inherit setuptools3 pkgconfig
